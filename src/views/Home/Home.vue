@@ -15,14 +15,14 @@
     <section id="portfolio" class="portfolio">
       <div class="container container--fluid">
         <div class="row align-items-center justify-end">
-          <div class="offset-xl-1 col-md-4 col-xl-3">
+          <div class="offset-xl-1 col-xl-3 col-lg-4">
             <div class="portfolio-title">
               <h2>Portfolio</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus facilis, nemo perferendis qui quos repudiandae.</p>
               <button class="custom-button" @click="$router.push('/portfolio')">All items</button>
             </div>
           </div>
-          <div class="col-md-8">
+          <div class="col-lg-8">
             <div class="row">
               <app-post
                 v-for="(item, index) of mainPortfolio" :key="index"
