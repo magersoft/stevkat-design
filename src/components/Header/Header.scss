@@ -1,0 +1,29 @@
+.header {
+  display: flex;
+  padding: 2.5rem;
+  position: absolute;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  z-index: 1;
+
+  .menu {
+    display: flex;
+
+    span {
+      margin-left: 32px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid transparent;
+      cursor: pointer;
+
+      a {
+        text-decoration: none;
+        color: white;
+      }
+
+      &:hover {
+        border-bottom: 1px solid red;
+      }
+    }
+  }
+}

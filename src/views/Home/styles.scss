@@ -1,0 +1,87 @@
+$size_h2: 52px;
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url("../../assets/bg.jpg");
+  background-size: cover;
+  color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+
+  .title {
+    text-align: left;
+  }
+
+  h1 {
+    font-size: 4rem;
+    font-weight: bold;
+  }
+
+  p {
+    margin-top: 2rem;
+    word-break: break-all;
+    line-height: 21px;
+    font-size: 18px;
+  }
+}
+
+.custom-button {
+  padding: 0.5rem 2rem;
+  background: #4A1265;
+  color: white;
+  margin: 0;
+  margin-top: 40px;
+  outline: none;
+
+  &:hover {
+    opacity: 0.8;
+  }
+}
+
+.portfolio {
+  background: var(--mainBg);
+  color: white;
+
+  &-title {
+    padding: 1rem;
+
+    h2 {
+      font-size: $size_h2;
+      font-weight: bold;
+      margin-bottom: 24px;
+    }
+  }
+}
+
+.contacts {
+  background-color: var(--mainBg);
+  padding: 6.25rem 0;
+  color: white;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+  }
+
+  h2 {
+    font-size: $size_h2;
+    font-weight: bold;
+    margin-bottom: 40px;
+  }
+
+  p {
+    font-size: 32px;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+
+    span {
+      font-weight: normal;
+    }
+  }
+}
