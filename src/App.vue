@@ -12,7 +12,6 @@ export default {
 
 <style lang="scss">
 @import '~reset-css/reset.css';
-@import '~flexboxgrid/css/flexboxgrid.min.css';
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Blinker&display=swap');
 @import './theme/token';

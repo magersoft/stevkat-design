@@ -13,7 +13,7 @@
       </div>
     </section>
     <section id="portfolio" class="portfolio">
-      <div class="container-fluid">
+      <div class="container container--fluid">
         <div class="row align-items-center">
           <div class="col-md-4">
             <div class="portfolio-title">
