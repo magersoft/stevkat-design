@@ -14,8 +14,8 @@
     </section>
     <section id="portfolio" class="portfolio">
       <div class="container container--fluid">
-        <div class="row align-items-center">
-          <div class="col-md-4">
+        <div class="row align-items-center justify-end">
+          <div class="offset-xl-1 col-md-4 col-xl-3">
             <div class="portfolio-title">
               <h2>Portfolio</h2>
               <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus facilis, nemo perferendis qui quos repudiandae.</p>
