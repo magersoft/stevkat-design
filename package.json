@@ -7,7 +7,7 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "predeploy": "yarn build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "firebase deploy"
   },
   "dependencies": {
     "axios": "^0.19.2",

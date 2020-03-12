@@ -5,6 +5,7 @@
 </template>
 
 <script>
+import 'vuetify/dist/vuetify.min.css'
 export default {
   name: 'App',
 };
@@ -43,20 +44,5 @@ button {
 
 button, a {
   font-family: Blinker, Roboto, sans-serif;
-}
-
-.container {
-  width: 100%;
-  padding: 12px;
-  margin-right: auto;
-  margin-left: auto;
-
-  @media (min-width: 1264px) {
-    max-width: 1185px;
-  }
-
-  @media (min-width: 960px) {
-    max-width: 900px;
-  }
 }
 </style>
