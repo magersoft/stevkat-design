@@ -2,14 +2,18 @@
   "name": "stevkat-design",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://magersoft.github.io/stevkat-design",
   "scripts": {
     "serve": "vue-cli-service serve",
-    "build": "vue-cli-service build"
+    "build": "vue-cli-service build",
+    "predeploy": "yarn build",
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
     "axios": "^0.19.2",
     "core-js": "^3.6.4",
     "flexboxgrid": "^6.3.1",
+    "http-server": "^0.12.1",
     "reset-css": "^5.0.1",
     "vue": "^2.6.11",
     "vue-router": "^3.1.5",
@@ -21,6 +25,7 @@
     "@vue/cli-plugin-router": "^4.2.0",
     "@vue/cli-plugin-vuex": "^4.2.0",
     "@vue/cli-service": "^4.2.0",
+    "gh-pages": "^2.2.0",
     "node-sass": "^4.12.0",
     "sass": "^1.19.0",
     "sass-loader": "^8.0.2",
