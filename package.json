@@ -2,7 +2,7 @@
   "name": "stevkat-design",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://magersoft.github.io/stevkat-design",
+  "homepage": "https://stevkat.firebaseapp.com/",
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
