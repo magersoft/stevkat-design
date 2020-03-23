@@ -3,7 +3,7 @@
     <app-header />
     <div class="container content">
       <h1>All Portfolio</h1>
-      <div class="row">
+      <div class="custom-row">
         <app-post
           v-for="(item, index) of portfolio" :key="index"
           :portfolio-item="item"

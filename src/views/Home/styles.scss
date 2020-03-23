@@ -22,9 +22,20 @@ $size_h2: 52px;
 
   p {
     margin-top: 2rem;
-    word-break: break-all;
+    word-break: break-word;
     line-height: 21px;
     font-size: 18px;
+    width: 64%;
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+      font-size: 3rem;
+    }
+
+    p {
+      width: 100%;
+    }
   }
 }
 
@@ -54,6 +65,10 @@ $size_h2: 52px;
       font-weight: bold;
       margin-bottom: 24px;
     }
+
+    @media screen and (max-width: 768px) {
+      padding-left: 0;
+    }
   }
 }
 
@@ -74,12 +89,20 @@ $size_h2: 52px;
     font-size: $size_h2;
     font-weight: bold;
     margin-bottom: 40px;
+
+    @media screen and (max-width: 768px) {
+      font-size: 2rem;
+    }
   }
 
   p {
     font-size: 32px;
     margin-bottom: 0.5rem;
     font-weight: bold;
+
+    @media screen and (max-width: 768px) {
+      font-size: 16px;
+    }
 
     span {
       font-weight: normal;

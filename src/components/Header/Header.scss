@@ -7,6 +7,10 @@
   align-items: center;
   z-index: 1;
 
+  @media screen and (max-width: 414px) {
+    padding: 1.5rem;
+  }
+
   .menu {
     display: flex;
 
@@ -24,6 +28,15 @@
       &:hover {
         border-bottom: 1px solid red;
       }
+    }
+  }
+
+  @media screen and (max-width: 374px) {
+    padding: 1rem;
+    justify-content: flex-start;
+
+    .menu span {
+      margin-left: 16px;
     }
   }
 }

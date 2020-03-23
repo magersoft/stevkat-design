@@ -5,7 +5,7 @@
       <div class="container">
         <div class="title">
           <h1>Hello I'am <br />UI/UX Design</h1>
-          <p>Долго. Дорого. <span style="color: red">Ахуенно!</span></p>
+          <p>Привет, я Катанаев Евгений. Я дизайнер интерфейсов мобильных и desktop платформ, базирующийся в Москве и Московской области.</p>
           <a href="#portfolio">
             <button class="custom-button">Portfolio</button>
           </a>
@@ -18,8 +18,8 @@
           <div class="offset-xl-1 col-xl-3 col-lg-4">
             <div class="portfolio-title">
               <h2>Portfolio</h2>
-              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus facilis, nemo perferendis qui quos repudiandae.</p>
-              <button class="custom-button" @click="$router.push('/portfolio')">All items</button>
+              <p>Представляю Вам свои работы. Здесь собраны как творческие концепты, так и интерфейсы созданные в "боевых" условиях.</p>
+              <button class="custom-button" @click="$router.push('/portfolio')">View all</button>
             </div>
           </div>
           <div class="col-lg-8">
