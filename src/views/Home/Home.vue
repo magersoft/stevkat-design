@@ -37,7 +37,7 @@
       <div class="container">
         <h2>Contact with me</h2>
         <p>Social: <span>@StEvKat</span></p>
-        <p>Email: <span>email@email.com</span></p>
+        <p>Email: <span>j.a.dog2555@gmail.com</span></p>
       </div>
     </section>
     <app-footer />
