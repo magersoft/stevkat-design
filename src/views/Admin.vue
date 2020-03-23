@@ -19,6 +19,7 @@
           <v-text-field v-model="title" label="Title" />
           <v-text-field v-model="description" label="Description" />
           <v-file-input multiple label="small image" @change="uploadSmallImage"></v-file-input>
+          <v-text-field v-model="pdf" label="PDF Link" />
           <v-file-input multiple label="big image" @change="uploadBigImage"></v-file-input>
           <v-checkbox label="Show in Home page" v-model="isHome" />
           <v-btn type="submit">Add portfolio</v-btn>
@@ -50,6 +51,7 @@ export default {
     description: '',
     smallImage: '',
     image: '',
+    pdf: '',
     isHome: false
   }),
   computed: {
@@ -68,6 +70,7 @@ export default {
           description: this.description,
           smallImage: this.smallImage,
           image: this.image,
+          pdf: this.pdf,
           isHome: this.isHome
         };
         await this.$store.dispatch('addPortfolio', portfolio);
@@ -81,6 +84,7 @@ export default {
       this.smallImage = '';
       this.description = '';
       this.image = '';
+      this.pdf = '';
     },
     async uploadImage(file) {
       if (file) {
