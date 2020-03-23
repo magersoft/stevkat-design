@@ -4,7 +4,7 @@
     <section id="home" class="main">
       <div class="container">
         <div class="title">
-          <h1>Hello I'am <br />UI/UX Design</h1>
+          <h1>Hello I'am <br />UI/UX Designer</h1>
           <p>Привет, я Катанаев Евгений. Я дизайнер интерфейсов мобильных и desktop платформ, базирующийся в Москве и Московской области.</p>
           <a href="#portfolio">
             <button class="custom-button">Portfolio</button>

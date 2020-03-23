@@ -1,6 +1,6 @@
 <template>
   <footer class="footer">
-    <span>© 2020 <a href="https://github.com/magersoft">Magersoft</a></span>
+    <span>© 2020 <a href="https://github.com/magersoft" target="_blank" rel="noopener noreferrer">Magersoft</a></span>
   </footer>
 </template>
 
