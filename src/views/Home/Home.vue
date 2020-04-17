@@ -18,7 +18,7 @@
           <div class="offset-xl-1 col-xl-3 col-lg-4">
             <div class="portfolio-title">
               <h2>Portfolio</h2>
-              <p>Представляю Вам свои работы. Здесь собраны как творческие концепты, так и интерфейсы созданные в "боевых" условиях.</p>
+              <p>Представляю Вам свои работы. Здесь отобраны одни из последних макетов. Как концепты, так и рабочие проекты.</p>
               <button class="custom-button" @click="$router.push('/portfolio')">View all</button>
             </div>
           </div>
